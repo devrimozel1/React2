@@ -67,18 +67,15 @@ function App() {
         users.map((user, index) => (
           <div key={index} className='karts'
             style={user.isLogin
-              ? { border: "1px solid black"}
-              : { border:"2px solid red"}}>
+              ? { border: "1px solid black" }
+              : { border: "2px solid red" }}>
             <h2> Kullanıcı Adı : {user.name}</h2>
             <h2> Kullanıcı Soyadı : {user.surname}</h2>
             <h2> Kullanıcı Yaşı : {user.age}</h2>
-
-
+            <h2>Kullanıcı Status : {user.isLogin ? "Kayıtlı" : "Kayıtlı Değil"}</h2>
           </div>
-
         ))
       }
-
     </div>
 
   )
