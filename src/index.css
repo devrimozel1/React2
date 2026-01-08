@@ -1,0 +1,15 @@
+.bodydiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.karts {
+    background-color: yellow;
+    border-radius: 20px;
+    width: 50vh;
+    height: 20vh;
+    text-align: center;
+    padding: 10px;
+}
